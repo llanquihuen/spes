@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+</head>
+<body>
+    <div id="inicio">
+        <img src="img/Ilustración-sin-título 1.png" alt="portada">
+    </div>
+
+    <header class="header">
+        <h1>SPESIAL</h1>
+    </header>
+    <main class="main">
+        <div class="fondo">
+            <img src="img/IMG_9941 3.png" alt="Dinosapio">
+        </div>
+    
+        <div class="habla">
+            <p>
+                Habla con Dinosapio
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <nav id="footer-clean">
+            <a href="index.html">
+
+                <div class="boton">
+                    <img src="img/Ilustración-sin-título 2.png" alt="Inicio">
+                    <p>Inicio</p>
+                </div>
+            </a>
+            <a href="habla.html">
+                <div class="boton boton-dino">
+                    <img src="img/IMG_9941 4.png" alt="Dinosapio">
+                    <p>Dinosapio</p>
+                </div>
+            </a>
+            <div class="boton">
+                <img src="img/calendar 1.png" alt="Mood">
+                <p>Mood</p>
+            </div>
+            <div class="boton">
+                <img src="img/heard hand 1.png" alt="Contacta">
+                <p>Contacta<br>ayuda</p>
+            </div>
+            <div class="boton">
+                <img src="img/person 1.png" alt="Perfil">
+                <p>Perfil</p>
+            </div>
+        </nav>
+    </footer>
+
+    <script>
+        setTimeout(()=> {
+            document.getElementById("inicio").style.visibility="hidden";
+            document.getElementById("inicio").style.opacity=0;
+
+            document.getElementById("footer-clean").style.visibility="visible";
+
+            // for (let i = 0; i < foot.length; i++) {
+            //     foot[i].style.display="flex"
+                
+            // }
+
+    }, 1000);
+
+    </script>
+</body>
+</html>
